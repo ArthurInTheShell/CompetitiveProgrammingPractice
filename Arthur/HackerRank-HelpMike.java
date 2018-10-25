@@ -6,7 +6,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class ConstructingANumber{
+public class HelpMike{
 
     // Complete the solve function below.
     static long solve(int n, int k) {
