@@ -92,6 +92,7 @@ public class AdjustHeap<T extends Comparable<? super T>> {
     return size == 0;
   }
 
+//Testing
   public static void main(String[] args) {
     AdjustHeap<Mutable> heap = new AdjustHeap<Mutable>(new HashMap<Mutable, Integer>());
     heap.offer(new Mutable(0, 0));
