@@ -76,14 +76,16 @@ public class AdjustHeap<T extends Comparable<? super T>> {
 
   public void adjust(T t) {
     int index = indexMap.get(t);
-    if (compare(index, index / 2) < 0) {
+    if (index > 1 && compare(index, index / 2) < 0) {
       percUp(index);
     } else {
       int child = index * 2;
-      if (child + 1 <= size && compare(child, child + 1) > 0)
-        child++;
-      if (compare(index, child) > 0) {
-        percDown(index);
+      if (child <= size) {
+        if (child + 1 <= size && compare(child, child + 1) > 0)
+          child++;
+        if (compare(index, child) > 0) {
+          percDown(index);
+        }
       }
     }
   }
@@ -92,7 +94,11 @@ public class AdjustHeap<T extends Comparable<? super T>> {
     return size == 0;
   }
 
-//Testing
+  public boolean contains(T t) {
+    return indexMap.containsKey(t);
+  }
+
+//Test codes
   public static void main(String[] args) {
     AdjustHeap<Mutable> heap = new AdjustHeap<Mutable>(new HashMap<Mutable, Integer>());
     heap.offer(new Mutable(0, 0));
