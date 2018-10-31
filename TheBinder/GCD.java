@@ -7,7 +7,7 @@ public class GCD {
         int m = sc.nextInt();
         sc.close();
         int c = gcd(n,m);
-        int d = n*m/c;
+        int d = n*(m/c);
         System.out.println("gcd: "+c);
         System.out.println("lcm: "+d);
     }
