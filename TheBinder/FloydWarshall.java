@@ -2,7 +2,7 @@ package com.company.shortestPath;
 
 public class FloydWarshall {
 
-    final static int INF = Integer.MAX_VALUE, V = 4;
+    final static int INF = Integer.MAX_VALUE/2-100, V = 4;
 
     void floydWarshall(int graph[][]) {
         int dist[][] = new int[V][V];
