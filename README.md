@@ -9,6 +9,10 @@ Largest Sum Contiguous Subarray - [Purple Rain](Arthur/Kattis-PurpleRain.java)<b
 Max-Flow - [Jupiter](Michael/[Kattis]Jupiter.java)<br />
 <br/>
 Binder:<br/>
-Algorithm [Max-Flow Edmund-Karp](TheBinder/MaxFlowEK.java)<br/> Dependency:None
+Algorithm [Max-Flow Edmund-Karp](TheBinder/MaxFlowEK.java)
+<br/> Dependency:None
 <br/>
-Utility [AdjustHeap (For ElogV Dijsktra)](TheBinder/AdjustHeap.java)<br/>Dependency:None
+Utility [AdjustHeap (For ElogV Dijsktra)](TheBinder/AdjustHeap.java) | [GCD](TheBinder/GCD.java) | [Sieve of Eratosthenes](TheBinder/SieveofEratosthenes.java)
+<br/>Dependency:None
+<br/>
+
