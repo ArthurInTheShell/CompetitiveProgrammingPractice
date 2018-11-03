@@ -8,6 +8,8 @@ Number Theory - [Roud Table Knight](Arthur/CodeForce-RoundTableKnight.java), [He
 Largest Sum Contiguous Subarray - [Purple Rain](Arthur/Kattis-PurpleRain.java)<br />
 Max-Flow - [Jupiter](Michael/[Kattis]Jupiter.java)<br />
 String - [Haiku Formatting](Michael/[Kattis]HHaiku.java)<br/>
+Sweep Line - [Security Badge](Michael/[Kattis]SecurityBadeg.java)<br/>
+BFS - [Security Badge](Michael/[Kattis]SecurityBadeg.java)<br/>
 <br/>
 Binder:<br/>
 Algorithm [Max-Flow Edmund-Karp](TheBinder/MaxFlowEK.java)<br/> Dependency:None<br/>
